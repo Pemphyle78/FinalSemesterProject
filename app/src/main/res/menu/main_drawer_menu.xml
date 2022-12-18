@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeId"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="HOME" />
+        <item
+            android:id="@+id/donateId"
+            android:icon="@drawable/ic_baseline_attach_money_24"
+            android:title="DONATIONS" />
+        <item
+            android:id="@+id/donateItemId"
+            android:icon="@drawable/ic_items_donation"
+            android:title="ITEMS DONATIONS" />
+        <item
+            android:id="@+id/volunteerId"
+            android:icon="@drawable/ic_baseline_add_comment_24"
+            android:title="VOLUNTEER" />
+        <item
+            android:id="@+id/workId"
+            android:icon="@drawable/ic_baseline_work_24"
+            android:title="OUR WORK" />
+        <item
+            android:id="@+id/aboutId"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="ABOUT" />
+
+        <item
+            android:id="@+id/settingsId"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="SETTINGS" />
+    </group>
+</menu>
